@@ -12,7 +12,7 @@
   # Installation
   www.github.com/chrislyons2886/read-me-generator
   ## Usage
-  https://drive.google.com/file/d/1BR0_rLwue0hf2YKMaOevUn0jLoBKCKYb/view
+ https://drive.google.com/file/d/1BR0_rLwue0hf2YKMaOevUn0jLoBKCKYb/view
   ## Contributors
   Chris Lyons
   ### Instructions
