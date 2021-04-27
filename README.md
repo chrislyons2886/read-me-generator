@@ -1,28 +1,28 @@
 
-  # Chris Lyons' ReadMe Generator / BSD 3-Clause License
+  # Chris Lyons' README Generator / Apache
   # Description
-  # This is a markdown file generator that uses JavaScript and NodeJS that publishes README.md files
+  # This is a command-line application that accepts user input and generates a quality README file through the user’s terminal.  This application comes to life through a combination of JavaScript, NodeJS, and the Inquirer package.
   # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribution](#contributors)
+  * [Contributors](#contributors)
   * [Credits](#credits)
   * [License](#license)
   
   # Installation
-  test
+  www.github.com/chrislyons2886/read-me-generator
   ## Usage
-  test
-  ## Contribution
-  test
+  https://drive.google.com/file/d/1BR0_rLwue0hf2YKMaOevUn0jLoBKCKYb/view
+  ## Contributors
+  Chris Lyons
   ### Instructions
-  test
+  Dependency on NPM Inquirer and FS - With the file open in the terminal, user must run “node index.js” in order to run through a series of prompts that will generate the README file. 
   ## Credits
-  test
+  Chris Lyons, Classmates, Anthony, Tom
   ## License
-  The application you're enjoying is covered under the BSD 3-Clause license.
-  [![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD 3-Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  The application you're enjoying is covered under the Apache license.
+  [![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
   # Questions
     For questions, please email me, or contact me via GitHub.
-  * Email: test
-  * GitHub: test
+  * Email: chrislyons2886@gmail.com
+  * GitHub: www.github.com/chrislyons2886

@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-//const { deflateRawSync } = require('zlib');
+
 inquirer.prompt([
   {
     type: 'input',
@@ -76,13 +76,13 @@ inquirer.prompt([
  
   const filename = 'README.md';
   const readMe = `
-  # ${data.title} / ${data.license} License
+  # ${data.title} / ${data.license}
   # Description
   # ${data.description}
   # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribution](#contributors)
+  * [Contributors](#contributors)
   * [Credits](#credits)
   * [License](#license)
   
@@ -90,7 +90,7 @@ inquirer.prompt([
   ${data.installation}
   ## Usage
   ${data.usage}
-  ## Contribution
+  ## Contributors
   ${data.contributors}
   ### Instructions
   ${data.instructions}
@@ -102,7 +102,7 @@ inquirer.prompt([
   # Questions
     For questions, please email me, or contact me via GitHub.
   * Email: ${data.email}
-  * GitHub: ${data.gitHub}`;
+  * GitHub: www.github.com/${data.gitHub}`;
   console.log(readMe);
   fs.writeFile(filename, readMe, (err) =>
     err ? console.log(err) : console.log('Success!')
